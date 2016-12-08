@@ -8139,6 +8139,31 @@ button.close {
 img {
   max-width: 100%; }
 
+.info-circle {
+  width: 46%;
+  height: auto;
+  border-radius: 50%;
+  border-color: #f7941e;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5%;
+  display: block;
+  margin: 0 auto;
+  background: white; }
+
+.info-circle:hover {
+  background-color: #f7941e; }
+  .info-circle:hover path {
+    fill: white; }
+
+.btn, .info-circle, a {
+  -webkit-transition: color linear .4s,background-color linear .4s,border-color linear .4s;
+  transition: color linear .4s,background-color linear .4s,border-color linear .4s; }
+
+.btn:hover, a:hover {
+  text-decoration: none;
+  outline: none; }
+
 .navbar {
   margin-bottom: 0;
   font-family: "sifonnbasic", Helvetica, Arial, sans-serif;
@@ -8228,6 +8253,11 @@ img {
 
 .section-a {
   padding-bottom: 50px; }
+  .section-a a {
+    color: #666; }
+  .section-a a:hover, .section-a btn:hover {
+    color: #f7941e;
+    text-decoration: none; }
   .section-a h1 {
     text-align: center;
     font-family: "sifonnbasic", Helvetica, Arial, sans-serif;
@@ -8280,8 +8310,10 @@ img {
     margin-bottom: 20px; }
   .section-b .btn-primary {
     background: #f7941e;
-    border-radius: 0;
+    border-radius: 2px;
     border: none; }
+  .section-b .btn-primary:hover {
+    background-color: #333; }
   .section-b .paq-cot-box {
     background-color: #fafafa;
     background-color: rgba(250, 250, 250, 0.9);
@@ -8342,18 +8374,6 @@ img {
   @media (max-width: 620px) {
     .section-d h1 {
       padding: 0 50px 30px 50px; } }
-
-.info-circle {
-  width: 46%;
-  height: auto;
-  border-radius: 50%;
-  border-color: #f7941e;
-  border-style: solid;
-  border-width: 1px;
-  padding: 5%;
-  display: block;
-  margin: 0 auto;
-  background: white; }
 
 footer {
   background-color: #f6f6f6;
