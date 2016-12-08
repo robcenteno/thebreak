@@ -8232,6 +8232,7 @@ img {
     text-align: center;
     font-family: "sifonnbasic", Helvetica, Arial, sans-serif;
     font-size: 34px;
+    line-height: 41px;
     margin: 48px 0;
     color: #f7941e;
     margin: 80px auto 50px auto;
@@ -8245,8 +8246,9 @@ img {
     text-align: center;
     font-family: "sifonnbasic", Helvetica, Arial, sans-serif;
     font-size: 22px;
+    line-height: 28px;
     margin: 48px 0;
-    color: #555; }
+    color: #555555; }
 
 .section-b {
   background: url(../img/paq-cot.jpg) no-repeat -100px;
@@ -8258,6 +8260,7 @@ img {
     text-align: center;
     font-family: "sifonnbasic", Helvetica, Arial, sans-serif;
     font-size: 34px;
+    line-height: 41px;
     margin: 48px 0;
     color: white; }
   .section-b h3 {
@@ -8285,7 +8288,7 @@ img {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     padding-bottom: 30px;
-    margin-bottom: 30px; }
+    margin-bottom: 50px; }
 
 .section-c {
   color: #f6f6f6;
@@ -8296,12 +8299,14 @@ img {
     text-align: center;
     font-family: "sifonnbasic", Helvetica, Arial, sans-serif;
     font-size: 34px;
+    line-height: 41px;
     margin: 48px 0;
     color: white; }
   .section-c h2 {
     text-align: center;
     font-family: "sifonnbasic", Helvetica, Arial, sans-serif;
     font-size: 22px;
+    line-height: 28px;
     margin: 48px 0;
     color: #fafafa; }
   .section-c label {
@@ -8327,6 +8332,7 @@ img {
     text-align: center;
     font-family: "sifonnbasic", Helvetica, Arial, sans-serif;
     font-size: 34px;
+    line-height: 41px;
     margin: 48px 0;
     color: #f7941e;
     margin: 80px auto 50px auto;
