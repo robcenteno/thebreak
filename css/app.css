@@ -8333,6 +8333,9 @@ img {
     display: table;
     padding: 0 200px 30px 200px;
     border-bottom: solid 1px #999; }
+  @media (max-width: 620px) {
+    .section-d h1 {
+      padding: 0 50px 30px 50px; } }
 
 .info-circle {
   width: 46%;
