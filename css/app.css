@@ -8197,6 +8197,7 @@ img {
   border-radius: 0px; }
 
 .showcase {
+  margin-top: 70px;
   background: url(../img/showcase.jpg) no-repeat -100px;
   background-attachment: fixed;
   background-position: center;
